@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Menu">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="160dp"
+        android:layout_marginLeft="150dp">
+
+        <Button
+            android:id="@+id/btn_createQR"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  QR Code 생성  "
+            android:background="#E9967A" />
+        <Button
+            android:layout_marginTop="20dp"
+            android:id="@+id/btn_lookupQR"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="   QR Code 조회   "
+            android:background="#E9967A"/>
+        <Button
+            android:layout_marginTop="20dp"
+            android:id="@+id/btn_assetManagement"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="   자산관리   "
+            android:background="#E9967A"/>
+        <Button
+            android:layout_marginTop="20dp"
+            android:id="@+id/btn_lookUpCashBill"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="   현금영수증 내역 조회
+"
+            android:background="#E9967A"/>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
